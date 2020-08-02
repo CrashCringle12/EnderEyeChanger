@@ -1,0 +1,18 @@
+# ########################################################################################################
+# EnderEyeChanger Configuration - http://dev.bukkit.org/server-mods/enderchanger
+# 
+# allow-nether-end: Should we allow ender eyes to be thrown in the Nether and End worlds
+#                  (Vanilla does not allow this)
+# 
+# use-stronghold-location: Should ender eyes point to default stronghold locations, or the nearest 
+#                          waypoint specified.
+# 
+# target-locations: All ender eye waypoints/target locations
+#     x: x coordinate
+#     y: y coordinate
+#     z: z coordinate
+#     world: world
+# ########################################################################################################
+
+allow-nether-end: false
+use-stronghold-location: true

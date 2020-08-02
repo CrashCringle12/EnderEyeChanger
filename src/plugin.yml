@@ -1,0 +1,15 @@
+name: EnderEyeChanger
+main: me.crashcringle.matrix.EnderEyeChanger
+version: ${project.version}
+api-version: 1.16
+author: CrashCringle
+description: Custom Eye of Ender Location
+commands:
+  endereye:
+    description: Controls what EnderEyeChanger does. Do /<command> help for more info.
+    usage: /<command> [waypoint|stronghold] [add|remove <name>] [help]
+    permission: endereyechanger.*
+    
+permissions:
+  endereyechanger.*:
+    default: op
